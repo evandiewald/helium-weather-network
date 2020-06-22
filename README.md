@@ -93,3 +93,8 @@ Block mined successfully!
  {'block_height': 12, 'txn_list': "['8f76a4b19cbba5c3c8d49b58ba56b41bb1d8cb5eeb32c469951498124c163882']", 'block_hash': '1ac603bad6d49049f97d8b9dc54fdab16c6198c1ff10fba3435de2321b66f1cd', 'miner': 5, 'next_miner': 4}
 Rewards Updated.
 ```
+
+## Frontend Application
+This repository also includes a [simple example](weather_map.py) of a frontend weather tracking application that could be generated from this data. Using the folium mapping library, you can see how quickly you can download the data from IPFS. [Click here](https://evandiewald.github.io/helium-weather-network/frontend/weather_map.html) to see an interactive version of the plot.
+
+![weather map](images/weathermap_screenshot.PNG)
