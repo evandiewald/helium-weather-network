@@ -1,6 +1,6 @@
 # helium-weather-network
 
-Code and documentation for this [Hackster.io project submission](https://www.hackster.io/evan-diewald/decentralized-climate-monitoring-at-the-point-of-need-95d8bb): 
+Code and documentation for this [Hackster.io project submission](https://www.hackster.io/evan-diewald/decentralized-climate-monitoring-at-the-point-of-need-95d8bb)
 
 To run the mining daemon on your own data, you will need to have a LoRaWAN device broadcasting to the Helium Console with a Pipedream Integration, as described in [this tutorial](https://www.hackster.io/evan-diewald/routing-sensor-data-from-helium-devices-to-google-sheets-285699).
 
