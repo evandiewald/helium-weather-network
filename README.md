@@ -1,5 +1,3 @@
-![weathermap screenshot](images/weathermap_screenshot.png)
-
 # helium-weather-network
 
 Code and documentation for this [Hackster.io project submission](https://www.hackster.io/evan-diewald/decentralized-climate-monitoring-at-the-point-of-need-95d8bb)
