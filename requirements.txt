@@ -1,0 +1,13 @@
+base58==2.0.1
+certifi==2020.6.20
+chardet==3.0.4
+idna==2.9
+ipfshttpclient==0.4.13.2
+multiaddr==0.0.9
+netaddr==0.7.20
+numpy==1.19.0
+psycopg2==2.8.5
+requests==2.24.0
+six==1.15.0
+urllib3==1.25.9
+varint==1.0.2
