@@ -1,10 +1,12 @@
+![weathermap screenshot](images/weathermap_screenshot.png)
+
 # helium-weather-network
 
 Code and documentation for this [Hackster.io project submission](https://www.hackster.io/evan-diewald/decentralized-climate-monitoring-at-the-point-of-need-95d8bb)
 
 To run the mining daemon on your own data, you will need to have a LoRaWAN device broadcasting to the Helium Console with a Pipedream Integration, as described in [this tutorial](https://www.hackster.io/evan-diewald/routing-sensor-data-from-helium-devices-to-google-sheets-285699).
 
-![network architecture flowchart](network_flowchart.jpg)
+![network architecture flowchart](images/network_flowchart.jpg)
 
 ## Raspberry Pi Setup 
 1. Boot a Raspberry Pi 4 with [64-bit Raspbian](https://downloads.raspberrypi.org/raspios_arm64/images/) and run the usual updates:
