@@ -16,17 +16,16 @@
 
 
 // This is the "App EUI" in Helium. Make sure it is little-endian (lsb).
-static const u1_t PROGMEM APPEUI[8] = {0xCB, 0x09, 0xC8, 0xF2, 0xCF, 0xCB, 0xD5, 0xD0};
+static const u1_t PROGMEM APPEUI[8] = {FILL_ME_IN};
 void os_getArtEui(u1_t *buf) { memcpy_P(buf, APPEUI, 8); }
 
 // This should also be in little endian format
 // These are user configurable values and Helium console permits anything
-//static const u1_t PROGMEM DEVEUI[8] = {0xA1, 0xE9, 0x84, 0xF7, 0xDC, 0xA6, 0xC5, 0x2B};
-static const u1_t PROGMEM DEVEUI[8] = {0x8A, 0x7A, 0x6A, 0x5A, 0x4A, 0x3A, 0x2A, 0x1A};
+static const u1_t PROGMEM DEVEUI[8] = {FILL_ME_IN};
 void os_getDevEui(u1_t *buf) { memcpy_P(buf, DEVEUI, 8); }
 
 // This is the "App Key" in Helium. It is big-endian (msb).
-static const u1_t PROGMEM APPKEY[16] = {0x13, 0xE7, 0x26, 0xB7, 0x72, 0x10, 0xAE, 0x18, 0x07, 0x4A, 0x7B, 0x21, 0x04, 0xFB, 0x07, 0xDC};
+static const u1_t PROGMEM APPKEY[16] = {FILL_ME_IN};
 void os_getDevKey(u1_t *buf) { memcpy_P(buf, APPKEY, 16); }
 
 static uint8_t mydata[] = "Hello, world!";
