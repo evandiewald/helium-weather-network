@@ -5,7 +5,7 @@ idna==2.9
 ipfshttpclient==0.4.13.2
 multiaddr==0.0.9
 netaddr==0.7.20
-numpy==1.19.0
+numpy==1.22.0
 psycopg2==2.8.5
 requests==2.24.0
 six==1.15.0
